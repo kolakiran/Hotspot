@@ -1,0 +1,45 @@
+/*
+
+// -------------------------------------------------------------------
+// Source: HS_print.css
+//
+// Description: stylesheet for the Hotspot
+// -------------------------------------------------------------------
+
+*/
+
+header#HS_header, footer#HS_footer {
+	display: none !important;
+}
+
+header#HS_header, #HS_page_toolbar, #HS_opening #HS_opening_margin_layer, .HS_wrapper {
+	width: auto !important;
+	margin: 0 !important;
+}
+
+#HS_main, #HS_opening, #HS_opening div{
+	background: none !important;
+	background-color: #FFFFFF !important;
+	height: auto !important;
+	color: #000000 !important;
+}
+
+#HS_opening_content {
+	width: auto !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+	color: #000000 !important;
+	opacity: 1;
+}
+
+path {
+	fill: #000000 !important;
+}
+
+body#home_page .HS_wrapper .content_padding {
+	padding: 10px !important;
+}
+
+
