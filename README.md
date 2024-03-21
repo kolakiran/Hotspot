@@ -20,15 +20,7 @@ Since it is less time duration, used jQuey to make Ajax calls. And also used Goo
 
 # Hotspot
 
+We are in the process of enabling observability for the WROS-Kafka topics. During our work, we've discovered an absence of data across all topics within the lower environment. It appears necessary to restart the Dynatrace One agent on the specified servers to address this issue.
 
+Should you require additional information, please don't hesitate to reach out. @ccc, kindly supplement with any additional required steps as you see fit.
 
-
-Upon further investigation into our AWS Lambda setup, we have identified that subscription filters are correctly configured for all but 44 of our Lambda functions. This discrepancy likely stems from either an oversight during the initial deployment on February 24 or an issue arising from subsequent deployments on February 28 and March 1.
-
-To resolve this, we propose adding a dummy environment variable to the affected Lambda functions through a pull request (PR). This modification will trigger a redeployment of these Lambda functions, ensuring the correct establishment of subscription filters.
-
-We recommend incorporating this fix in our upcoming production deployment. Could you please confirm if this approach aligns with our deployment schedule?
-
-Additionally, it has come to our attention that one Lambda function is not associated with any stack. Raj, could you please investigate this particular function to determine the cause and recommend a solution?
-
-Thank you for your attention to this matter. Your prompt feedback will be greatly appreciated to ensure a seamless resolution.
