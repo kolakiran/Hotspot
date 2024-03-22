@@ -19,8 +19,3 @@ Adding some illustrations to banner.
 Since it is less time duration, used jQuey to make Ajax calls. And also used Google API to get the zip code based on current location. HTML5 and CSS3 for frontend design.
 
 # Hotspot
-
-We are in the process of enabling observability for the WROS-Kafka topics. During our work, we've discovered an absence of data across all topics within the lower environment. It appears necessary to restart the Dynatrace One agent on the specified servers to address this issue.
-
-Should you require additional information, please don't hesitate to reach out. @ccc, kindly supplement with any additional required steps as you see fit.
-
